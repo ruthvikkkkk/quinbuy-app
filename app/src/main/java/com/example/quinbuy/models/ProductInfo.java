@@ -1,0 +1,97 @@
+package com.example.quinbuy.models;
+
+import com.google.gson.annotations.SerializedName;
+
+public class ProductInfo{
+
+	@SerializedName("BLP-60045-00314")
+	private BLP6004500314 bLP6004500314;
+
+	@SerializedName("GAT-70141-00001")
+	private GAT7014100001 gAT7014100001;
+
+	@SerializedName("SAO-60034-02001")
+	private SAO6003402001 sAO6003402001;
+
+	@SerializedName("BLW-70014-00004")
+	private BLW7001400004 bLW7001400004;
+
+	@SerializedName("SAO-60034-01468")
+	private SAO6003401468 sAO6003401468;
+
+	@SerializedName("BAE-70297-00009")
+	private BAE7029700009 bAE7029700009;
+
+	@SerializedName("RAS-60118-00311")
+	private RAS6011800311 rAS6011800311;
+
+	public void setBLP6004500314(BLP6004500314 bLP6004500314){
+		this.bLP6004500314 = bLP6004500314;
+	}
+
+	public BLP6004500314 getBLP6004500314(){
+		return bLP6004500314;
+	}
+
+	public void setGAT7014100001(GAT7014100001 gAT7014100001){
+		this.gAT7014100001 = gAT7014100001;
+	}
+
+	public GAT7014100001 getGAT7014100001(){
+		return gAT7014100001;
+	}
+
+	public void setSAO6003402001(SAO6003402001 sAO6003402001){
+		this.sAO6003402001 = sAO6003402001;
+	}
+
+	public SAO6003402001 getSAO6003402001(){
+		return sAO6003402001;
+	}
+
+	public void setBLW7001400004(BLW7001400004 bLW7001400004){
+		this.bLW7001400004 = bLW7001400004;
+	}
+
+	public BLW7001400004 getBLW7001400004(){
+		return bLW7001400004;
+	}
+
+	public void setSAO6003401468(SAO6003401468 sAO6003401468){
+		this.sAO6003401468 = sAO6003401468;
+	}
+
+	public SAO6003401468 getSAO6003401468(){
+		return sAO6003401468;
+	}
+
+	public void setBAE7029700009(BAE7029700009 bAE7029700009){
+		this.bAE7029700009 = bAE7029700009;
+	}
+
+	public BAE7029700009 getBAE7029700009(){
+		return bAE7029700009;
+	}
+
+	public void setRAS6011800311(RAS6011800311 rAS6011800311){
+		this.rAS6011800311 = rAS6011800311;
+	}
+
+	public RAS6011800311 getRAS6011800311(){
+		return rAS6011800311;
+	}
+
+	@Override
+ 	public String toString(){
+		return 
+			"ProductInfo{" + 
+			"bLP-60045-00314 = '" + bLP6004500314 + '\'' + 
+			",gAT-70141-00001 = '" + gAT7014100001 + '\'' + 
+			",sAO-60034-02001 = '" + sAO6003402001 + '\'' + 
+			",bLW-70014-00004 = '" + bLW7001400004 + '\'' + 
+			",sAO-60034-01468 = '" + sAO6003401468 + '\'' + 
+			",bAE-70297-00009 = '" + bAE7029700009 + '\'' + 
+			",rAS-60118-00311 = '" + rAS6011800311 + '\'' + 
+			"}";
+		}
+}

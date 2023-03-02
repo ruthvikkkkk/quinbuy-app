@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">quinbuy</string>
+    <string name="product_card_button">Show</string>
+    <string name="home_enter_product">Enter Product Name</string>
+    <string name="home_search_button">Search</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="full_product_name">Product name:</string>
+    <string name="full_product_price">Price:</string>
+    <string name="full_product_type">Category:</string>
+    <string name="full_product_rating">Rating:</string>
+    <string name="menu_linear">Linear Layout</string>
+    <string name="menu_grid">Grid Layout</string>
+    <string name="menu_staggered">Staggered Layout</string>
+
+</resources>
