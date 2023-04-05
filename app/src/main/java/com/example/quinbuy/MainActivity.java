@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_screen);
 
+        getActionBar().hide();
+
         Button searchButton = findViewById(R.id.bt_home_search);
         Button wishButton = findViewById(R.id.bt_home_wishlist);
         if(getSharedPreferences("wishlist", MODE_PRIVATE).getAll().size() <= 0) {
